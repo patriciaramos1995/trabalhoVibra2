@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.fib.lp5.bateria" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Status bateria</name>
+    <description>
+        Status da bateria.
+    </description>
+    <author email="patriciasoramos@gmail.com" href="http://fibr.br">
+	Patricia
+	</author>
+    <content src="index.html" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <platform name="android">
+    </platform>
+    <engine name="android" spec="~5.2.2" />
+    <plugin name="cordova-plugin-vibration" spec="~2.1.2" />
+</widget>
